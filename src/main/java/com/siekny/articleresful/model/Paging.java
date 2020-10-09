@@ -16,7 +16,7 @@ public class Paging {
     private int offset;
 
     public Paging() {
-        this(1, 20, 0L, 0, 5);
+        this(1, 200, 0L, 0, 5);
     }
 
     public Paging(int page, int limit, Long totalCount, int totalPages, int pagesToShow) {

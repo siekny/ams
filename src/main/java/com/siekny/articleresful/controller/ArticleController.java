@@ -56,7 +56,7 @@ public class ArticleController {
                                              @RequestParam(value = "search", required = false) String patternSearch
     ) {
         page = (page != null) ? page : 1;
-        limit = (limit != null) ? limit : 10;
+        limit = (limit != null) ? limit : 200;
 
         Paging paging = new Paging();
         paging.setPage(page);
